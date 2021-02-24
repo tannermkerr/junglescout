@@ -1,5 +1,5 @@
 # Overview
-application endpoint: [JS App](jsapp-alb-name-1381614574.us-west-2.elb.amazonaws.com)
+application endpoint: [JS App](http://jsapp-alb-name-1381614574.us-west-2.elb.amazonaws.com)
 In a readme I would normally describe the application at a high level with links to docs containing diagrams etc. 
 
 Depending on the requirements of the application, one way to scale would be to provide a list of regions to the stack, in order to deploy the necessary infrastructure (load balancer, tasks, services, etc.). I have only implemented one region, but expanding the stack/ci config to deploy multiple clusters across regions wouldn't be too difficult or time consuming. This assumption is based on other Iac tools I've worked with, so I'd consult the experts/research the best ways to do so.
