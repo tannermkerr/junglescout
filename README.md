@@ -4,3 +4,10 @@ Normally I would have retained the git history of the source, but am creating a 
 I noticed someone has recently used aws account this and stored terraform state files in s3. I will likely do the same as terraform best practices state to store state file remotely for team situations.
 
 
+## TODO
+VPC
+ALB
+Service
+Task
+S3 Bucket for state
+Versioning
