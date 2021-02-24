@@ -14,7 +14,7 @@ workflows:
           no-output-timeout: 20m
           path: ./
           profile-name: js-iac
-          region: us-west-2
+          region: AWS_REGION_ENV_VAR_NAME
           repo: jsapp
           skip-when-tags-exist: false
           tag: 'latest,myECRRepoTag'
